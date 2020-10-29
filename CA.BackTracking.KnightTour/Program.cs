@@ -50,7 +50,7 @@ namespace CA.BackTracking.KnightTour
         {
             Console.WriteLine($"::: {_programTitle} :::\n\r");
 
-            InitializeBoard(8);
+            InitializeBoard(5); // board size
             GenerateAllDeltas();
 
             _board[0, 0] = 1;
